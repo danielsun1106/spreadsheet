@@ -144,15 +144,15 @@ class PoiCellStyleDefinition extends AbstractCellStyleDefinition {
 
     @Override
     protected void doAlign(Keywords.VerticalAlignment verticalAlignment, Keywords.HorizontalAlignment horizontalAlignment) {
-        if (Keywords.VerticalAndHorizontalAlignment.CENTER.equals(verticalAlignment)) {
+        if (Keywords.VerticalAndHorizontalAlignment.VAHA_CENTER.equals(verticalAlignment)) {
             style.setVerticalAlignment(VerticalAlignment.CENTER);
-        } else if (Keywords.PureVerticalAlignment.DISTRIBUTED.equals(verticalAlignment)) {
+        } else if (Keywords.PureVerticalAlignment.PVA_DISTRIBUTED.equals(verticalAlignment)) {
             style.setVerticalAlignment(VerticalAlignment.DISTRIBUTED);
-        } else if (Keywords.VerticalAndHorizontalAlignment.JUSTIFY.equals(verticalAlignment)) {
+        } else if (Keywords.VerticalAndHorizontalAlignment.VAHA_JUSTIFY.equals(verticalAlignment)) {
             style.setVerticalAlignment(VerticalAlignment.JUSTIFY);
-        } else if (Keywords.BorderSideAndVerticalAlignment.TOP.equals(verticalAlignment)) {
+        } else if (Keywords.BorderSideAndVerticalAlignment.BSAVA_TOP.equals(verticalAlignment)) {
             style.setVerticalAlignment(VerticalAlignment.TOP);
-        } else if (Keywords.BorderSideAndVerticalAlignment.BOTTOM.equals(verticalAlignment)) {
+        } else if (Keywords.BorderSideAndVerticalAlignment.BSAVA_BOTTOM.equals(verticalAlignment)) {
             style.setVerticalAlignment(VerticalAlignment.BOTTOM);
         } else {
             throw new IllegalArgumentException(String.valueOf(verticalAlignment) + " is not supported!");

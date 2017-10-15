@@ -1,6 +1,7 @@
 rootProject.name = 'spreadsheet'
 
 include 'spreadsheet-builder-groovy',
+        'spreadsheet-builder-kotlin',
         'spreadsheet-builder-api',
         'spreadsheet-builder-poi',
         'spreadsheet-builder-tck-groovy',

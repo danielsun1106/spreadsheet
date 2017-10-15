@@ -481,31 +481,31 @@ import builders.dsl.spreadsheet.query.api.WorkbookCriterion
     }
 
     static Keywords.BorderSideAndHorizontalAlignment getLeft(CellStyleDefinition self) {
-        return Keywords.BorderSideAndHorizontalAlignment.LEFT
+        return Keywords.BorderSideAndHorizontalAlignment.BSAHA_LEFT
     }
 
     static Keywords.BorderSideAndHorizontalAlignment getRight(CellStyleDefinition self) {
-        return Keywords.BorderSideAndHorizontalAlignment.RIGHT
+        return Keywords.BorderSideAndHorizontalAlignment.BSAHA_RIGHT
     }
 
     static Keywords.BorderSideAndVerticalAlignment getTop(CellStyleDefinition self) {
-        return Keywords.BorderSideAndVerticalAlignment.TOP
+        return Keywords.BorderSideAndVerticalAlignment.BSAVA_TOP
     }
 
     static Keywords.BorderSideAndVerticalAlignment getBottom(CellStyleDefinition self) {
-        return Keywords.BorderSideAndVerticalAlignment.BOTTOM
+        return Keywords.BorderSideAndVerticalAlignment.BSAVA_BOTTOM
     }
 
     static Keywords.VerticalAndHorizontalAlignment getCenter(CellStyleDefinition self) {
-        return Keywords.VerticalAndHorizontalAlignment.CENTER
+        return Keywords.VerticalAndHorizontalAlignment.VAHA_CENTER
     }
 
     static Keywords.VerticalAndHorizontalAlignment getJustify(CellStyleDefinition self) {
-        return Keywords.VerticalAndHorizontalAlignment.JUSTIFY
+        return Keywords.VerticalAndHorizontalAlignment.VAHA_JUSTIFY
     }
 
     static Keywords.PureVerticalAlignment getDistributed(CellStyleDefinition self) {
-        return Keywords.PureVerticalAlignment.DISTRIBUTED
+        return Keywords.PureVerticalAlignment.PVA_DISTRIBUTED
     }
 
     static Keywords.Text getText(CellStyleDefinition self) {
@@ -617,29 +617,29 @@ import builders.dsl.spreadsheet.query.api.WorkbookCriterion
     }
 
     static Keywords.BorderSideAndHorizontalAlignment getLeft(BorderPositionProvider self) {
-        return Keywords.BorderSideAndHorizontalAlignment.LEFT;
+        return Keywords.BorderSideAndHorizontalAlignment.BSAHA_LEFT;
     }
 
     static Keywords.BorderSideAndHorizontalAlignment getRight(BorderPositionProvider self) {
-        return Keywords.BorderSideAndHorizontalAlignment.RIGHT;
+        return Keywords.BorderSideAndHorizontalAlignment.BSAHA_RIGHT;
     }
 
     static Keywords.BorderSideAndVerticalAlignment getTop(BorderPositionProvider self) {
-        return Keywords.BorderSideAndVerticalAlignment.TOP;
+        return Keywords.BorderSideAndVerticalAlignment.BSAVA_TOP;
     }
 
     static Keywords.BorderSideAndVerticalAlignment getBottom(BorderPositionProvider self) {
-        return Keywords.BorderSideAndVerticalAlignment.BOTTOM;
+        return Keywords.BorderSideAndVerticalAlignment.BSAVA_BOTTOM;
     }
 
     static Keywords.PureHorizontalAlignment getGeneral(CellStyleDefinition self) {
-        return Keywords.PureHorizontalAlignment.GENERAL
+        return Keywords.PureHorizontalAlignment.PHA_GENERAL
     }
     static Keywords.PureHorizontalAlignment getFill(CellStyleDefinition self) {
-        return Keywords.PureHorizontalAlignment.FILL
+        return Keywords.PureHorizontalAlignment.PHA_FILL
     }
     static Keywords.PureHorizontalAlignment getCenterSelection(CellStyleDefinition self) {
-        return Keywords.PureHorizontalAlignment.CENTER_SELECTION
+        return Keywords.PureHorizontalAlignment.PHA_CENTER_SELECTION
     }
     static Keywords.Auto getAuto(SheetDefinition self) {
         return Keywords.Auto.AUTO
